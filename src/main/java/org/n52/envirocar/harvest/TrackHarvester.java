@@ -1,0 +1,141 @@
+/**
+ * Copyright (C) 2013
+ * by Matthes Rieke
+ *
+ * Contact: http://matthesrieke.github.io
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+package org.n52.envirocar.harvest;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+import org.apache.http.HttpResponse;
+import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.client.methods.HttpUriRequest;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.n52.envirocar.json.JsonUtil;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class TrackHarvester extends TrackPublisher {
+
+	private static final Logger logger = LoggerFactory
+			.getLogger(TrackHarvester.class);
+
+	private String baseTracks = "https://giv-car.uni-muenster.de/dev/rest/tracks/";
+
+	private ProgressListener progressListener;
+
+	private int trackCount;
+	private int processedTrackCount;
+
+	private List<TrackFilter> filters = new ArrayList<TrackFilter>();
+	
+	public TrackHarvester(String consumerUrl, ProgressListener l) {
+		super(consumerUrl);
+		this.progressListener = l;
+	}
+
+	public void harvestTracks() throws ClientProtocolException,
+			IOException {
+		HttpClient client = createAllTrustingClient();
+		
+		trackCount = resolveTrackCount(client);
+		
+		int page = 1;
+		HttpResponse resp = client.execute(createRequest(baseTracks, page));
+		Map<?, ?> json = JsonUtil.createJson(resp.getEntity().getContent());
+		
+		while (((List<?>) json.get("tracks")).size() > 0) {
+			logger.info("Processing page {}", page);
+			processTracks(json);
+			page++;
+			resp = client.execute(createRequest(baseTracks, page));
+			json = JsonUtil.createJson(resp.getEntity().getContent());
+		}
+		
+		logger.info("finished pushing tracks.");
+		
+	}
+
+	private int resolveTrackCount(HttpClient client) throws IllegalStateException, IOException {
+		int page = 1;
+		int trackCount = 0;
+		HttpResponse resp = client.execute(createRequest(baseTracks, page));
+		Map<?, ?> json = JsonUtil.createJson(resp.getEntity().getContent());
+		
+		List<?> tmpTrackList = ((List<?>) json.get("tracks"));
+		while (tmpTrackList != null && tmpTrackList.size() > 0) {
+			logger.info("Retrieving page {}", page);
+			trackCount += tmpTrackList.size();
+			page++;
+			resp = client.execute(createRequest(baseTracks, page));
+			json = JsonUtil.createJson(resp.getEntity().getContent());
+			tmpTrackList = ((List<?>) json.get("tracks"));
+		}
+		
+		return trackCount;
+	}
+
+	private HttpUriRequest createRequest(String url, int page) {
+		return new HttpGet(url + "?limit=100&page="+ page);
+	}
+
+	private void processTracks(Map<?, ?> json)
+			throws ClientProtocolException, IOException {
+		List<?> tracks = (List<?>) json.get("tracks");
+
+		for (Object t : tracks) {
+			String id = (String) ((Map<?, ?>) t).get("id");
+			readAndPushTrack(id);
+			processedTrackCount++;
+			progressListener.onProgressUpdate(calculateProgress());
+		}
+
+	}
+
+	private float calculateProgress() {
+		float progress = (processedTrackCount / (float) trackCount) * 100f;
+		return progress;
+	}
+
+	private void readAndPushTrack(String id)
+			throws ClientProtocolException, IOException {
+		DefaultHttpClient client = new DefaultHttpClient();
+		HttpResponse resp = client.execute(new HttpGet(baseTracks.concat(id)));
+		String content = readContent(resp.getEntity().getContent());
+
+		logger.info("Pushing track '{}' to {}.", id, targetConsumer);
+		pushToConsumer(applyFilters(content));
+	}
+
+	private String applyFilters(String content) {
+		if (this.filters != null && this.filters.size() > 0) {
+			for (TrackFilter f : this.filters) {
+				if (!f.accepts(content)) {
+					return null;
+				}
+			}
+		}
+		return content;
+	}
+	
+
+
+}

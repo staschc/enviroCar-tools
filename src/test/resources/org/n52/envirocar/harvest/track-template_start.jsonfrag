@@ -1,0 +1,16 @@
+{
+   "type":"FeatureCollection",
+   "properties":{
+      "id":"${trackId}",
+      "sensor":{
+         "type":"car",
+         "properties":{
+            "id":"51d18889e4b043815e294d94",
+            "model":"prius (hybrid)",
+            "fuelType":"diesel",
+            "manufacturer":"toyota",
+            "constructionYear":2012
+         }
+      }
+   },
+   "features":[
