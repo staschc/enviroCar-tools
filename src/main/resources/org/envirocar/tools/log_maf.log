@@ -1,0 +1,1046 @@
+2013-09-20T13:56:51.270 [INFO]: [org.envirocar.app.logging.Logger:188] System information:
+3.1.10-g1e8b3d8, 18, grouper, Nexus 7, nakasi; App version: Version '838ca944221028e5c678c2f87d99fbd770d8d404' (18), 20.09.13 13:56
+2013-09-20T13:56:51.295 [INFO]: [org.envirocar.app.storage.DbAdapterImpl:113] init DbAdapterImpl; Hash: 1107640424
+2013-09-20T13:56:51.422 [INFO]: [org.envirocar.app.application.ECApplication:176] init commandListener
+2013-09-20T13:56:51.426 [INFO]: [org.envirocar.app.application.ECApplication:154] Bluetooth enabled
+2013-09-20T13:56:51.432 [INFO]: [org.envirocar.app.application.ECApplication:204] requirements met
+2013-09-20T13:56:51.706 [INFO]: [org.envirocar.app.activity.StartStopButtonUtil:73] updateStartStopButtonOnServiceStateChange called with state: SERVICE_STOPPED / trackMode: 0 discovery: false
+2013-09-20T13:56:51.715 [INFO]: [org.envirocar.app.activity.DashboardFragment:234] onCreate. hash=1108001912
+2013-09-20T13:56:51.726 [INFO]: [org.envirocar.app.activity.DashboardFragment:103] onCreateView. hash=1108001912
+2013-09-20T13:56:51.804 [INFO]: [org.envirocar.app.activity.DashboardFragment:133] onViewCreated. hash=1108001912
+2013-09-20T13:56:52.090 [INFO]: [org.envirocar.app.activity.DashboardFragment:252] onStart. hash=1108001912
+2013-09-20T13:56:52.114 [INFO]: [org.envirocar.app.activity.DashboardFragment:258] onResume. hash=1108001912
+2013-09-20T13:56:52.136 [INFO]: [org.envirocar.app.application.service.BackgroundServiceImpl:96] onCreate org.envirocar.app.application.service.BackgroundServiceImpl; Hash: 1107532016
+2013-09-20T13:56:52.143 [INFO]: [org.envirocar.app.application.service.BackgroundServiceImpl:90] onBind org.envirocar.app.application.service.BackgroundServiceImpl; Hash: 1107532016
+2013-09-20T13:56:54.567 [INFO]: [org.envirocar.app.activity.DashboardFragment:240] onPause. hash=1108001912
+2013-09-20T13:56:55.870 [INFO]: [org.envirocar.app.activity.DashboardFragment:228] onStop. hash=1108001912
+2013-09-20T13:57:07.022 [INFO]: [org.envirocar.app.activity.StartStopButtonUtil:73] updateStartStopButtonOnServiceStateChange called with state: SERVICE_STOPPED / trackMode: 0 discovery: false
+2013-09-20T13:57:16.324 [INFO]: [org.envirocar.app.activity.DashboardFragment:252] onStart. hash=1108001912
+2013-09-20T13:57:16.340 [INFO]: [org.envirocar.app.activity.DashboardFragment:258] onResume. hash=1108001912
+2013-09-20T13:57:26.402 [INFO]: [org.envirocar.app.logging.Logger:188] System information:
+3.1.10-g1e8b3d8, 18, grouper, Nexus 7, nakasi; App version: Version '838ca944221028e5c678c2f87d99fbd770d8d404' (18), 20.09.13 13:56
+2013-09-20T13:57:26.433 [INFO]: [org.envirocar.app.storage.DbAdapterImpl:113] init DbAdapterImpl; Hash: 1107644104
+2013-09-20T13:57:26.800 [INFO]: [org.envirocar.app.application.ECApplication:176] init commandListener
+2013-09-20T13:57:26.806 [INFO]: [org.envirocar.app.application.ECApplication:154] Bluetooth enabled
+2013-09-20T13:57:26.812 [INFO]: [org.envirocar.app.application.ECApplication:204] requirements met
+2013-09-20T13:57:27.090 [INFO]: [org.envirocar.app.activity.StartStopButtonUtil:73] updateStartStopButtonOnServiceStateChange called with state: SERVICE_STOPPED / trackMode: 0 discovery: false
+2013-09-20T13:57:27.101 [INFO]: [org.envirocar.app.activity.DashboardFragment:234] onCreate. hash=1108011080
+2013-09-20T13:57:27.113 [INFO]: [org.envirocar.app.activity.DashboardFragment:103] onCreateView. hash=1108011080
+2013-09-20T13:57:27.192 [INFO]: [org.envirocar.app.activity.DashboardFragment:133] onViewCreated. hash=1108011080
+2013-09-20T13:57:27.482 [INFO]: [org.envirocar.app.activity.DashboardFragment:252] onStart. hash=1108011080
+2013-09-20T13:57:27.500 [INFO]: [org.envirocar.app.activity.DashboardFragment:258] onResume. hash=1108011080
+2013-09-20T13:57:27.524 [INFO]: [org.envirocar.app.application.service.BackgroundServiceImpl:96] onCreate org.envirocar.app.application.service.BackgroundServiceImpl; Hash: 1107862432
+2013-09-20T13:57:27.532 [INFO]: [org.envirocar.app.application.service.BackgroundServiceImpl:90] onBind org.envirocar.app.application.service.BackgroundServiceImpl; Hash: 1107862432
+2013-09-20T13:57:30.025 [INFO]: [org.envirocar.app.activity.StartStopButtonUtil:101] processButtonClick called with state: SERVICE_STOPPED / trackMode: 0 discovery: false
+2013-09-20T13:57:32.028 [INFO]: [org.envirocar.app.application.ECApplication:257] ECApplication startConnection
+2013-09-20T13:57:32.065 [INFO]: [org.envirocar.app.application.service.BackgroundServiceImpl:128] onStartCommand org.envirocar.app.application.service.BackgroundServiceImpl; Hash: 1107862432
+2013-09-20T13:57:32.072 [INFO]: [org.envirocar.app.application.service.BackgroundServiceImpl:138] startBackgroundService called
+2013-09-20T13:57:32.087 [INFO]: [org.envirocar.app.application.service.BackgroundServiceImpl:189] startConnection called
+2013-09-20T13:57:32.098 [INFO]: [org.envirocar.app.bluetooth.BluetoothConnection:67] initiliasing connection to device APOS GmbH BT OBD_W3 / 00:07:80:83:94:E7
+2013-09-20T13:57:32.108 [INFO]: [org.envirocar.app.bluetooth.BluetoothConnection:81] Using UUID discovery mechanism.
+2013-09-20T13:57:32.153 [INFO]: [org.envirocar.app.activity.StartStopButtonUtil:73] updateStartStopButtonOnServiceStateChange called with state: SERVICE_STARTING / trackMode: 0 discovery: false
+2013-09-20T13:57:36.183 [INFO]: [org.envirocar.app.bluetooth.BluetoothConnection:111] Found the following UUIDs for device APOS GmbH BT OBD_W3
+2013-09-20T13:57:36.188 [INFO]: [org.envirocar.app.bluetooth.BluetoothConnection:114] 00001101-0000-1000-8000-00805f9b34fb
+2013-09-20T13:57:36.201 [INFO]: [org.envirocar.app.bluetooth.BluetoothConnection:215] Attempting to connect to SDP 00001101-0000-1000-8000-00805f9b34fb
+2013-09-20T13:57:36.217 [INFO]: [org.envirocar.app.bluetooth.BluetoothConnection:171] Connecting to socket...
+2013-09-20T13:57:36.358 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93461565755695 long: 7.652616323455481
+2013-09-20T13:57:36.720 [INFO]: [org.envirocar.app.bluetooth.BluetoothConnection:174] Connected!
+2013-09-20T13:57:36.734 [INFO]: [org.envirocar.app.application.service.BackgroundServiceImpl:221] Bluetooth device connected.
+2013-09-20T13:57:36.740 [INFO]: [org.envirocar.app.storage.DbAdapterImpl:117] Returning DbAdapterImpl; Hash: 1107644104
+2013-09-20T13:57:36.747 [INFO]: [org.envirocar.app.application.Collector:59] Using MAF Algorithm class org.envirocar.app.protocol.algorithm.CalculatedMAFWithStaticVolumetricEfficiency
+2013-09-20T13:57:36.752 [INFO]: [org.envirocar.app.application.Collector:61] Using Consumption Algorithm class org.envirocar.app.protocol.algorithm.BasicConsumptionAlgorithm
+2013-09-20T13:57:36.758 [INFO]: [org.envirocar.app.application.CommandListener:206] createNewTrackIfNecessary
+2013-09-20T13:57:37.344 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:57:38.339 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:57:39.346 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:57:40.340 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:57:41.344 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:57:42.024 [FINEST]: [org.envirocar.app.storage.DbAdapterImpl:181] insertTrack: 0
+2013-09-20T13:57:42.139 [FINEST]: [org.envirocar.app.storage.DbAdapterImpl:189] updateTrack: 17
+2013-09-20T13:57:42.348 [WARNING]: [org.envirocar.app.application.Collector:149] Get no MAF value
+2013-09-20T13:57:42.355 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:57:43.004 [INFO]: [org.envirocar.app.storage.DbAdapterImpl:425] createNewTrack: Track 20.09.2013 13:57:42
+2013-09-20T13:57:43.012 [INFO]: [org.envirocar.app.application.CommandListener:254] Using Track: Track 20.09.2013 13:57:42 / 17
+2013-09-20T13:57:43.040 [FINEST]: [org.envirocar.app.application.CommandListener:73] Initialized. Hash: 1108280048
+2013-09-20T13:57:43.052 [INFO]: [org.envirocar.app.protocol.drivedeck.DriveDeckSportConnector:58] Static CycleCommand: a17
+2013-09-20T13:57:43.059 [INFO]: [org.envirocar.app.protocol.OBDCommandLooper:228] Using org.envirocar.app.protocol.sequential.AposW3Connector connector as the preferred adapter.
+2013-09-20T13:57:43.064 [INFO]: [org.envirocar.app.protocol.OBDCommandLooper:128] Trying AposW3Connector.
+2013-09-20T13:57:43.080 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Reset OBD / AT Z
+2013-09-20T13:57:43.096 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Echo Off / AT E0
+2013-09-20T13:57:43.333 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:57:43.499 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Echo Off / AT E0
+2013-09-20T13:57:43.506 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Line Feed Off / AT L0
+2013-09-20T13:57:43.545 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Timeout / AT ST 3e
+2013-09-20T13:57:43.596 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Protocol: Auto / AT SP 0
+2013-09-20T13:57:44.947 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:57:45.947 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:57:46.939 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:57:47.950 [WARNING]: [org.envirocar.app.application.Collector:149] Get no MAF value
+2013-09-20T13:57:47.958 [INFO]: [org.envirocar.app.application.CommandListener:195] inserting measurement to Track: Track 20.09.2013 13:57:42
+2013-09-20T13:57:47.965 [INFO]: [org.envirocar.app.storage.DbAdapterImpl:117] Returning DbAdapterImpl; Hash: 1107644104
+2013-09-20T13:57:48.016 [INFO]: [org.envirocar.app.application.CommandListener:198] Add new measurement to track: Measurement [latitude=51.93464721461945, longitude=7.652490649246483, time=1379678262353, 
+2013-09-20T13:57:48.030 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:57:48.615 [INFO]: [org.envirocar.app.protocol.OBDCommandLooper:128] Trying ELM327Connector.
+2013-09-20T13:57:48.638 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Reset OBD / AT Z
+2013-09-20T13:57:48.644 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Echo Off / AT E0
+2013-09-20T13:57:48.951 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:57:49.060 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Echo Off / AT E0
+2013-09-20T13:57:49.507 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Line Feed Off / AT L0
+2013-09-20T13:57:49.560 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Timeout / AT ST 3e
+2013-09-20T13:57:49.627 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Protocol: Auto / AT SP 0
+2013-09-20T13:57:49.954 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:57:50.965 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:57:51.945 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:57:52.942 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:57:53.932 [WARNING]: [org.envirocar.app.application.Collector:149] Get no MAF value
+2013-09-20T13:57:53.940 [INFO]: [org.envirocar.app.application.CommandListener:195] inserting measurement to Track: Track 20.09.2013 13:57:42
+2013-09-20T13:57:53.949 [INFO]: [org.envirocar.app.storage.DbAdapterImpl:117] Returning DbAdapterImpl; Hash: 1107644104
+2013-09-20T13:57:53.999 [INFO]: [org.envirocar.app.application.CommandListener:198] Add new measurement to track: Measurement [latitude=51.93464721461945, longitude=7.652490649246483, time=1379678268027, 
+2013-09-20T13:57:54.012 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:57:54.697 [INFO]: [org.envirocar.app.protocol.OBDCommandLooper:128] Trying AposW3Connector.
+2013-09-20T13:57:54.727 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Reset OBD / AT Z
+2013-09-20T13:57:54.736 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Echo Off / AT E0
+2013-09-20T13:57:54.944 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:57:55.475 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Echo Off / AT E0
+2013-09-20T13:57:55.533 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Line Feed Off / AT L0
+2013-09-20T13:57:55.588 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Timeout / AT ST 3e
+2013-09-20T13:57:55.670 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Protocol: Auto / AT SP 0
+2013-09-20T13:57:55.722 [INFO]: [org.envirocar.app.protocol.OBDCommandLooper:277] OBD Adapter org.envirocar.app.protocol.sequential.AposW3Connector verified the responses. Connection Established!
+2013-09-20T13:57:55.767 [INFO]: [org.envirocar.app.activity.StartStopButtonUtil:73] updateStartStopButtonOnServiceStateChange called with state: SERVICE_STARTED / trackMode: 0 discovery: false
+2013-09-20T13:57:56.079 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:57:56.253 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:57:56.269 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:57:56.461 [INFO]: [org.envirocar.app.protocol.AbstractSequentialConnector:352] Adapter still searching. Waiting a bit. Continuing.
+2013-09-20T13:57:56.484 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:57:56.536 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:57:56.584 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:57:56.641 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:57:56.741 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 8.94 time: 1379678276535
+2013-09-20T13:57:56.760 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 857 time: 1379678276581
+2013-09-20T13:57:56.777 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 101 time: 1379678276637
+2013-09-20T13:57:56.949 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:57:57.947 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:57:58.947 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:57:59.940 [INFO]: [org.envirocar.app.application.CommandListener:195] inserting measurement to Track: Track 20.09.2013 13:57:42
+2013-09-20T13:57:59.946 [INFO]: [org.envirocar.app.storage.DbAdapterImpl:117] Returning DbAdapterImpl; Hash: 1107644104
+2013-09-20T13:58:00.010 [INFO]: [org.envirocar.app.application.CommandListener:198] Add new measurement to track: Measurement [latitude=51.93464721461945, longitude=7.652490649246483, time=1379678274006, Consumption=2.66777175807194, MAF=8.9399995803833, Intake Pressure=101.0, CO2=7.069595158890641, Intake Temperature=0.0, Rpm=857.0, 
+2013-09-20T13:58:00.023 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:00.943 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:01.932 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:02.944 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:03.950 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:04.948 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:05.948 [WARNING]: [org.envirocar.app.application.Collector:149] Get no MAF value
+2013-09-20T13:58:05.952 [INFO]: [org.envirocar.app.application.CommandListener:195] inserting measurement to Track: Track 20.09.2013 13:57:42
+2013-09-20T13:58:05.958 [INFO]: [org.envirocar.app.storage.DbAdapterImpl:117] Returning DbAdapterImpl; Hash: 1107644104
+2013-09-20T13:58:06.006 [INFO]: [org.envirocar.app.application.CommandListener:198] Add new measurement to track: Measurement [latitude=51.93464721461945, longitude=7.652490649246483, time=1379678280021, 
+2013-09-20T13:58:06.017 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:06.966 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:07.791 [WARNING]: [org.envirocar.app.application.Collector:114] Get no MAF value
+2013-09-20T13:58:07.806 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678276728
+2013-09-20T13:58:07.812 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:07.940 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:08.321 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:08.340 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:08.556 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:08.624 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:08.704 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:08.794 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:08.888 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678288545
+2013-09-20T13:58:08.918 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 9.11 time: 1379678288615
+2013-09-20T13:58:08.924 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 865 time: 1379678288696
+2013-09-20T13:58:08.939 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 101 time: 1379678288786
+2013-09-20T13:58:08.978 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:09.930 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:10.940 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:11.439 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678288849
+2013-09-20T13:58:11.473 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:11.930 [INFO]: [org.envirocar.app.application.CommandListener:195] inserting measurement to Track: Track 20.09.2013 13:57:42
+2013-09-20T13:58:11.936 [INFO]: [org.envirocar.app.storage.DbAdapterImpl:117] Returning DbAdapterImpl; Hash: 1107644104
+2013-09-20T13:58:11.998 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:12.009 [INFO]: [org.envirocar.app.application.CommandListener:198] Add new measurement to track: Measurement [latitude=51.93464721461945, longitude=7.652490649246483, time=1379678286012, Calculated MAF=15.532073629288641, MAF=9.109999656677246, Intake Pressure=101.0, CO2=7.2040282430952365, Intake Temperature=0.0, Rpm=865.0, Consumption=2.718501223809523, Speed=0.0, 
+2013-09-20T13:58:12.019 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:12.029 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:12.103 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:12.157 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:12.253 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:12.305 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:12.373 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678292101
+2013-09-20T13:58:12.384 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 9.13 time: 1379678292154
+2013-09-20T13:58:12.399 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 860 time: 1379678292247
+2013-09-20T13:58:12.413 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 101 time: 1379678292303
+2013-09-20T13:58:12.431 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678292357
+2013-09-20T13:58:12.444 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:12.938 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:12.959 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:12.974 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:13.068 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:13.129 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:13.187 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:13.277 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:13.354 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678293063
+2013-09-20T13:58:13.364 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 9.08 time: 1379678293124
+2013-09-20T13:58:13.378 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 870 time: 1379678293182
+2013-09-20T13:58:13.394 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 101 time: 1379678293272
+2013-09-20T13:58:13.410 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678293342
+2013-09-20T13:58:13.425 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:13.932 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:13.941 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:13.952 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:14.035 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:14.089 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:14.147 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:14.204 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:14.275 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678294034
+2013-09-20T13:58:14.290 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 9.16 time: 1379678294086
+2013-09-20T13:58:14.304 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 864 time: 1379678294145
+2013-09-20T13:58:14.320 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 101 time: 1379678294198
+2013-09-20T13:58:14.334 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678294259
+2013-09-20T13:58:14.348 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:14.858 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:14.884 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:14.934 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:14.992 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:15.062 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:15.144 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:15.203 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:15.305 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678294964
+2013-09-20T13:58:15.321 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 9.16 time: 1379678295060
+2013-09-20T13:58:15.333 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 853 time: 1379678295142
+2013-09-20T13:58:15.348 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 101 time: 1379678295197
+2013-09-20T13:58:15.353 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678295289
+2013-09-20T13:58:15.363 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:15.878 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:15.895 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:15.931 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:15.946 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:16.000 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:16.056 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:16.144 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:16.201 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678295944
+2013-09-20T13:58:16.231 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 12.94 time: 1379678295998
+2013-09-20T13:58:16.245 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 1089 time: 1379678296051
+2013-09-20T13:58:16.255 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 102 time: 1379678296141
+2013-09-20T13:58:16.270 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678296198
+2013-09-20T13:58:16.284 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:16.800 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:16.816 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:16.874 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:16.912 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:16.957 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:17.006 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:17.059 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:17.118 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678296869
+2013-09-20T13:58:17.128 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 8.77 time: 1379678296955
+2013-09-20T13:58:17.140 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 875 time: 1379678297004
+2013-09-20T13:58:17.151 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 102 time: 1379678297057
+2013-09-20T13:58:17.158 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678297115
+2013-09-20T13:58:17.173 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:17.688 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:17.705 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:17.790 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:17.855 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:17.909 [INFO]: [org.envirocar.app.application.CommandListener:195] inserting measurement to Track: Track 20.09.2013 13:57:42
+2013-09-20T13:58:17.918 [INFO]: [org.envirocar.app.storage.DbAdapterImpl:117] Returning DbAdapterImpl; Hash: 1107644104
+2013-09-20T13:58:17.942 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:17.986 [INFO]: [org.envirocar.app.application.CommandListener:198] Add new measurement to track: Measurement [latitude=51.93464721461945, longitude=7.652490649246483, time=1379678292022, Calculated MAF=15.867195918434287, MAF=8.770000457763672, Intake Pressure=102.0, CO2=6.935162828834999, Intake Temperature=0.0, Rpm=875.0, Consumption=2.6170425769188674, Speed=0.0, 
+2013-09-20T13:58:18.001 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:18.009 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:18.086 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678297786
+2013-09-20T13:58:18.100 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 19.05 time: 1379678297850
+2013-09-20T13:58:18.114 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 1259 time: 1379678297940
+2013-09-20T13:58:18.123 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 102 time: 1379678297989
+2013-09-20T13:58:18.131 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678298083
+2013-09-20T13:58:18.139 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:18.648 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:18.670 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:18.764 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:18.849 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:18.907 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:18.926 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:18.971 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:19.022 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678298754
+2013-09-20T13:58:19.033 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 30.88 time: 1379678298819
+2013-09-20T13:58:19.039 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 1391 time: 1379678298905
+2013-09-20T13:58:19.047 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 115 time: 1379678298968
+2013-09-20T13:58:19.053 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678299019
+2013-09-20T13:58:19.058 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:19.565 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:19.584 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:19.642 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:19.736 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:19.806 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:19.895 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:19.911 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:19.957 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678299637
+2013-09-20T13:58:19.963 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 10.8 time: 1379678299731
+2013-09-20T13:58:19.970 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 864 time: 1379678299802
+2013-09-20T13:58:19.978 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 106 time: 1379678299894
+2013-09-20T13:58:19.985 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678299956
+2013-09-20T13:58:19.990 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:20.497 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:20.515 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:20.595 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:20.667 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:20.759 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:20.823 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:20.915 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678300590
+2013-09-20T13:58:20.920 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:20.926 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 9.13 time: 1379678300660
+2013-09-20T13:58:20.940 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 934 time: 1379678300754
+2013-09-20T13:58:20.958 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 103 time: 1379678300818
+2013-09-20T13:58:20.974 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678300914
+2013-09-20T13:58:20.988 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:21.505 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:21.524 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:21.608 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:21.673 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:21.764 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:21.820 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:21.879 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678301603
+2013-09-20T13:58:21.898 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 22.97 time: 1379678301669
+2013-09-20T13:58:21.918 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 1053 time: 1379678301761
+2013-09-20T13:58:21.937 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 110 time: 1379678301818
+2013-09-20T13:58:21.957 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678301876
+2013-09-20T13:58:21.972 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:21.987 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:22.490 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:22.517 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:22.607 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:22.660 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:22.761 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:22.820 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:22.909 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678302599
+2013-09-20T13:58:22.924 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 8.74 time: 1379678302659
+2013-09-20T13:58:22.940 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 854 time: 1379678302748
+2013-09-20T13:58:22.982 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 104 time: 1379678302812
+2013-09-20T13:58:22.990 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678302902
+2013-09-20T13:58:22.997 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:23.015 [INFO]: [org.envirocar.app.application.CommandListener:195] inserting measurement to Track: Track 20.09.2013 13:57:42
+2013-09-20T13:58:23.021 [INFO]: [org.envirocar.app.storage.DbAdapterImpl:117] Returning DbAdapterImpl; Hash: 1107644104
+2013-09-20T13:58:23.081 [INFO]: [org.envirocar.app.application.CommandListener:198] Add new measurement to track: Measurement [latitude=51.93464721461945, longitude=7.652490649246483, time=1379678298002, Calculated MAF=15.79003778926229, MAF=8.739999771118164, Intake Pressure=104.0, CO2=6.911438811046692, Intake Temperature=0.0, Rpm=854.0, Consumption=2.6080901173761104, Speed=0.0, 
+2013-09-20T13:58:23.086 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:23.505 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:23.518 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:23.605 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:23.668 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:23.726 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:23.811 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:23.878 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678303601
+2013-09-20T13:58:23.905 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 8.97 time: 1379678303662
+2013-09-20T13:58:23.922 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 895 time: 1379678303721
+2013-09-20T13:58:23.932 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 101 time: 1379678303809
+2013-09-20T13:58:23.941 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678303862
+2013-09-20T13:58:23.950 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:23.968 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:24.460 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:24.478 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:24.563 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:24.618 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:24.674 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:24.724 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:24.793 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678304561
+2013-09-20T13:58:24.807 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 13.33 time: 1379678304614
+2013-09-20T13:58:24.822 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 1128 time: 1379678304673
+2013-09-20T13:58:24.836 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 104 time: 1379678304722
+2013-09-20T13:58:24.851 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678304777
+2013-09-20T13:58:24.865 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:24.905 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:25.379 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:25.396 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:25.453 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:25.538 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:25.598 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:25.693 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:25.754 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678305448
+2013-09-20T13:58:25.774 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 11.44 time: 1379678305535
+2013-09-20T13:58:25.790 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 1131 time: 1379678305593
+2013-09-20T13:58:25.805 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 104 time: 1379678305690
+2013-09-20T13:58:25.823 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678305746
+2013-09-20T13:58:25.838 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:25.910 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:26.353 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:26.377 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:26.471 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:26.536 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:26.613 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:26.676 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:26.753 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678306459
+2013-09-20T13:58:26.765 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 11.22 time: 1379678306529
+2013-09-20T13:58:26.780 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 1148 time: 1379678306602
+2013-09-20T13:58:26.795 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 103 time: 1379678306669
+2013-09-20T13:58:26.828 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678306739
+2013-09-20T13:58:26.843 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:26.904 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:27.358 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:27.376 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:27.464 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:27.526 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:27.613 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:27.667 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:27.730 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678307457
+2013-09-20T13:58:27.753 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 11.83 time: 1379678307521
+2013-09-20T13:58:27.771 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 1183 time: 1379678307610
+2013-09-20T13:58:27.787 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 103 time: 1379678307666
+2013-09-20T13:58:27.805 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678307721
+2013-09-20T13:58:27.820 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:27.906 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:28.336 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:28.355 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:28.440 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:28.503 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:28.591 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:28.654 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:28.741 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678308436
+2013-09-20T13:58:28.769 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 11.88 time: 1379678308498
+2013-09-20T13:58:28.785 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 1195 time: 1379678308586
+2013-09-20T13:58:28.796 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 103 time: 1379678308649
+2013-09-20T13:58:28.810 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678308735
+2013-09-20T13:58:28.822 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:28.907 [INFO]: [org.envirocar.app.application.CommandListener:195] inserting measurement to Track: Track 20.09.2013 13:57:42
+2013-09-20T13:58:28.915 [INFO]: [org.envirocar.app.storage.DbAdapterImpl:117] Returning DbAdapterImpl; Hash: 1107644104
+2013-09-20T13:58:28.981 [INFO]: [org.envirocar.app.application.CommandListener:198] Add new measurement to track: Measurement [latitude=51.93464721461945, longitude=7.652490649246483, time=1379678303085, Calculated MAF=21.882507670817752, MAF=11.880000114440918, Intake Pressure=103.0, CO2=9.394496111718034, Intake Temperature=0.0, Rpm=1195.0, Consumption=3.545092872346428, Speed=0.0, 
+2013-09-20T13:58:28.994 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:29.337 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:29.355 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:29.436 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:29.495 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:29.581 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:29.633 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:29.703 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678309433
+2013-09-20T13:58:29.711 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 12.05 time: 1379678309490
+2013-09-20T13:58:29.722 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 1195 time: 1379678309579
+2013-09-20T13:58:29.733 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 103 time: 1379678309630
+2013-09-20T13:58:29.748 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678309688
+2013-09-20T13:58:29.760 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:29.906 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:30.274 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:30.295 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:30.385 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:30.439 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:30.495 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:30.563 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:30.656 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678310375
+2013-09-20T13:58:30.673 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 11.74 time: 1379678310437
+2013-09-20T13:58:30.689 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 1197 time: 1379678310493
+2013-09-20T13:58:30.705 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 103 time: 1379678310548
+2013-09-20T13:58:30.718 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678310642
+2013-09-20T13:58:30.755 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:30.912 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:31.263 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:31.278 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:31.368 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:31.423 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:31.479 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:31.570 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:31.630 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678311364
+2013-09-20T13:58:31.657 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 11.74 time: 1379678311421
+2013-09-20T13:58:31.673 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 1196 time: 1379678311475
+2013-09-20T13:58:31.690 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 103 time: 1379678311567
+2013-09-20T13:58:31.707 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678311625
+2013-09-20T13:58:31.720 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:31.914 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:32.238 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:32.255 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:32.309 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:32.400 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:32.463 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:32.552 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:32.607 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678312304
+2013-09-20T13:58:32.634 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 11.97 time: 1379678312395
+2013-09-20T13:58:32.650 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 1198 time: 1379678312458
+2013-09-20T13:58:32.665 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 103 time: 1379678312548
+2013-09-20T13:58:32.679 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678312604
+2013-09-20T13:58:32.692 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:32.913 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:33.204 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:33.221 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:33.311 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:33.366 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:33.424 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:33.482 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:33.579 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678313307
+2013-09-20T13:58:33.597 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 11.99 time: 1379678313364
+2013-09-20T13:58:33.605 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 1204 time: 1379678313419
+2013-09-20T13:58:33.623 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 103 time: 1379678313477
+2013-09-20T13:58:33.633 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678313570
+2013-09-20T13:58:33.644 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:33.916 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:34.161 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:34.183 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:34.355 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:34.422 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:34.489 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:34.562 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:34.629 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678314348
+2013-09-20T13:58:34.649 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 11.86 time: 1379678314409
+2013-09-20T13:58:34.667 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 1207 time: 1379678314480
+2013-09-20T13:58:34.684 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 103 time: 1379678314548
+2013-09-20T13:58:34.709 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678314621
+2013-09-20T13:58:34.723 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:34.919 [INFO]: [org.envirocar.app.application.CommandListener:195] inserting measurement to Track: Track 20.09.2013 13:57:42
+2013-09-20T13:58:34.929 [INFO]: [org.envirocar.app.storage.DbAdapterImpl:117] Returning DbAdapterImpl; Hash: 1107644104
+2013-09-20T13:58:35.234 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:35.276 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:35.367 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:35.444 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:35.563 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:35.912 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:35.969 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678315362
+2013-09-20T13:58:35.984 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 11.77 time: 1379678315439
+2013-09-20T13:58:35.991 [INFO]: [org.envirocar.app.application.CommandListener:198] Add new measurement to track: Measurement [latitude=51.93464721461945, longitude=7.652490649246483, time=1379678308993, Calculated MAF=22.10224833362094, MAF=11.859999656677246, Intake Pressure=103.0, CO2=9.37868009985916, Intake Temperature=0.0, Rpm=1207.0, Consumption=3.539124565984589, Speed=0.0, 
+2013-09-20T13:58:35.998 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 1208 time: 1379678315557
+2013-09-20T13:58:36.005 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:36.010 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 103 time: 1379678315908
+2013-09-20T13:58:36.034 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678315965
+2013-09-20T13:58:36.048 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:36.080 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:36.563 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:36.579 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:36.662 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:36.719 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:36.775 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:36.843 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:36.911 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:36.921 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678316659
+2013-09-20T13:58:36.927 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 13.44 time: 1379678316718
+2013-09-20T13:58:36.933 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 1333 time: 1379678316774
+2013-09-20T13:58:36.938 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 103 time: 1379678316838
+2013-09-20T13:58:36.945 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678316914
+2013-09-20T13:58:36.950 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:37.456 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:37.472 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:37.553 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:37.606 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:37.664 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:37.749 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:37.813 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678317550
+2013-09-20T13:58:37.825 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 13.49 time: 1379678317604
+2013-09-20T13:58:37.837 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 1364 time: 1379678317655
+2013-09-20T13:58:37.847 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 104 time: 1379678317747
+2013-09-20T13:58:37.858 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678317801
+2013-09-20T13:58:37.867 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:37.908 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:38.387 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:38.405 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:38.490 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:38.558 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:38.654 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:38.715 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:38.818 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678318483
+2013-09-20T13:58:38.835 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 13.63 time: 1379678318552
+2013-09-20T13:58:38.855 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 1375 time: 1379678318645
+2013-09-20T13:58:38.874 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 104 time: 1379678318709
+2013-09-20T13:58:38.910 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678318804
+2013-09-20T13:58:38.921 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:38.928 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:39.437 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:39.460 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:39.546 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:39.600 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:39.693 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:39.761 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:39.824 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678319542
+2013-09-20T13:58:39.845 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 13.61 time: 1379678319598
+2013-09-20T13:58:39.861 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 1393 time: 1379678319688
+2013-09-20T13:58:39.870 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 104 time: 1379678319757
+2013-09-20T13:58:39.883 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678319814
+2013-09-20T13:58:39.897 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:39.930 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:40.406 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:40.425 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:40.510 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:40.575 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:40.680 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:40.736 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:40.798 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678320505
+2013-09-20T13:58:40.813 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 13.99 time: 1379678320570
+2013-09-20T13:58:40.826 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 1408 time: 1379678320676
+2013-09-20T13:58:40.844 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 104 time: 1379678320734
+2013-09-20T13:58:40.857 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678320789
+2013-09-20T13:58:40.870 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:40.908 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:41.379 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:41.403 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:41.488 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:41.556 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:41.648 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:41.712 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:41.813 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678321483
+2013-09-20T13:58:41.831 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 13.97 time: 1379678321550
+2013-09-20T13:58:41.843 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 1423 time: 1379678321643
+2013-09-20T13:58:41.853 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 105 time: 1379678321707
+2013-09-20T13:58:41.862 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678321804
+2013-09-20T13:58:41.874 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:41.904 [INFO]: [org.envirocar.app.application.CommandListener:195] inserting measurement to Track: Track 20.09.2013 13:57:42
+2013-09-20T13:58:41.910 [INFO]: [org.envirocar.app.storage.DbAdapterImpl:117] Returning DbAdapterImpl; Hash: 1107644104
+2013-09-20T13:58:41.968 [INFO]: [org.envirocar.app.application.CommandListener:198] Add new measurement to track: Measurement [latitude=51.93464721461945, longitude=7.652490649246483, time=1379678315998, Calculated MAF=26.56355269639057, MAF=13.970000267028809, Intake Pressure=105.0, CO2=11.047231643522448, Rpm=1423.0, Intake Temperature=0.0, Consumption=4.168766657932999, Speed=0.0, 
+2013-09-20T13:58:41.975 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:42.385 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:42.404 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:42.459 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:42.557 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:42.624 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:42.712 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:42.784 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678322455
+2013-09-20T13:58:42.801 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 14.61 time: 1379678322545
+2013-09-20T13:58:42.817 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 1469 time: 1379678322614
+2013-09-20T13:58:42.832 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 105 time: 1379678322706
+2013-09-20T13:58:42.848 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678322770
+2013-09-20T13:58:42.863 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:42.906 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:43.374 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:43.389 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:43.479 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:43.541 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:43.626 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:43.681 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:43.788 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678323473
+2013-09-20T13:58:43.803 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 15.08 time: 1379678323534
+2013-09-20T13:58:43.813 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 1519 time: 1379678323594
+2013-09-20T13:58:43.823 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 106 time: 1379678323676
+2013-09-20T13:58:43.839 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678323770
+2013-09-20T13:58:43.853 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:43.904 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:44.367 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:44.381 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:44.441 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:44.527 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:44.594 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:44.682 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:44.740 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678324436
+2013-09-20T13:58:44.765 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 15.44 time: 1379678324522
+2013-09-20T13:58:44.780 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 1543 time: 1379678324589
+2013-09-20T13:58:44.794 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 106 time: 1379678324679
+2013-09-20T13:58:44.807 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678324735
+2013-09-20T13:58:44.819 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:44.909 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:45.333 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:45.350 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:45.437 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:45.497 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:45.560 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:45.644 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:45.709 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678325433
+2013-09-20T13:58:45.735 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 15.74 time: 1379678325494
+2013-09-20T13:58:45.748 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 1553 time: 1379678325554
+2013-09-20T13:58:45.758 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 107 time: 1379678325641
+2013-09-20T13:58:45.769 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678325700
+2013-09-20T13:58:45.777 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:45.912 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:46.288 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:46.305 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:46.387 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:46.446 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:46.505 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:46.590 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:46.649 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678326383
+2013-09-20T13:58:46.666 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 15.69 time: 1379678326444
+2013-09-20T13:58:46.680 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 1556 time: 1379678326499
+2013-09-20T13:58:46.695 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 107 time: 1379678326588
+2013-09-20T13:58:46.710 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678326644
+2013-09-20T13:58:46.720 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:46.914 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:47.236 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:47.258 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:47.345 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:47.413 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:47.513 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:47.583 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:47.683 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678327340
+2013-09-20T13:58:47.700 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 15.77 time: 1379678327406
+2013-09-20T13:58:47.719 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 1559 time: 1379678327501
+2013-09-20T13:58:47.736 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 107 time: 1379678327570
+2013-09-20T13:58:47.757 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678327665
+2013-09-20T13:58:47.791 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:47.920 [INFO]: [org.envirocar.app.application.CommandListener:195] inserting measurement to Track: Track 20.09.2013 13:57:42
+2013-09-20T13:58:47.926 [INFO]: [org.envirocar.app.storage.DbAdapterImpl:117] Returning DbAdapterImpl; Hash: 1107644104
+2013-09-20T13:58:47.988 [INFO]: [org.envirocar.app.application.CommandListener:198] Add new measurement to track: Measurement [latitude=51.93464721461945, longitude=7.652490649246483, time=1379678321973, Calculated MAF=29.656633644165577, MAF=15.770000457763672, Intake Pressure=107.0, CO2=12.470640282415898, Intake Temperature=0.0, Rpm=1559.0, Consumption=4.70590199336449, Speed=0.0, 
+2013-09-20T13:58:47.997 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:48.307 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:48.325 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:48.434 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:48.496 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:48.583 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:48.638 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:48.694 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678328430
+2013-09-20T13:58:48.716 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 16.69 time: 1379678328491
+2013-09-20T13:58:48.731 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 1722 time: 1379678328580
+2013-09-20T13:58:48.747 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 108 time: 1379678328636
+2013-09-20T13:58:48.763 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678328691
+2013-09-20T13:58:48.777 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:48.915 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:49.294 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:49.308 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:49.392 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:49.454 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:49.540 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:49.592 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:49.663 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678329389
+2013-09-20T13:58:49.668 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 20.94 time: 1379678329448
+2013-09-20T13:58:49.677 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 1946 time: 1379678329538
+2013-09-20T13:58:49.682 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 112 time: 1379678329589
+2013-09-20T13:58:49.694 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678329649
+2013-09-20T13:58:49.707 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:49.916 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:50.214 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:50.227 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:50.314 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:50.377 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:50.465 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:50.521 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:50.625 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678330309
+2013-09-20T13:58:50.653 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 22.3 time: 1379678330372
+2013-09-20T13:58:50.663 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 2049 time: 1379678330462
+2013-09-20T13:58:50.679 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 116 time: 1379678330520
+2013-09-20T13:58:50.691 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678330616
+2013-09-20T13:58:50.698 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:50.921 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:51.206 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:51.230 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:51.333 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:51.412 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:51.487 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:51.565 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:51.666 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678331324
+2013-09-20T13:58:51.681 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 22.97 time: 1379678331404
+2013-09-20T13:58:51.699 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 2109 time: 1379678331480
+2013-09-20T13:58:51.715 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 118 time: 1379678331556
+2013-09-20T13:58:51.733 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678331647
+2013-09-20T13:58:51.769 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:51.920 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:52.284 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:52.301 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:52.390 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:52.456 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:52.514 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:52.607 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:52.684 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678332384
+2013-09-20T13:58:52.697 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 23.02 time: 1379678332450
+2013-09-20T13:58:52.713 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 2134 time: 1379678332509
+2013-09-20T13:58:52.727 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 119 time: 1379678332600
+2013-09-20T13:58:52.741 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678332668
+2013-09-20T13:58:52.754 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:52.913 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:53.269 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:53.297 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:53.382 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:53.438 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:53.494 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:53.551 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:53.650 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678333376
+2013-09-20T13:58:53.674 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 23.02 time: 1379678333433
+2013-09-20T13:58:53.692 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 2161 time: 1379678333491
+2013-09-20T13:58:53.707 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 119 time: 1379678333547
+2013-09-20T13:58:53.722 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678333639
+2013-09-20T13:58:53.736 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:53.914 [INFO]: [org.envirocar.app.application.CommandListener:195] inserting measurement to Track: Track 20.09.2013 13:57:42
+2013-09-20T13:58:53.920 [INFO]: [org.envirocar.app.storage.DbAdapterImpl:117] Returning DbAdapterImpl; Hash: 1107644104
+2013-09-20T13:58:53.991 [INFO]: [org.envirocar.app.application.CommandListener:198] Add new measurement to track: Measurement [latitude=51.93464721461945, longitude=7.652490649246483, time=1379678327995, Calculated MAF=45.71868050631531, MAF=23.020000457763672, Intake Pressure=119.0, CO2=18.203813359338977, Intake Temperature=0.0, Rpm=2161.0, Consumption=6.869363531826029, Speed=0.0, 
+2013-09-20T13:58:54.002 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:54.253 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:54.268 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:54.328 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:54.394 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:54.487 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:54.545 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:54.644 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678334324
+2013-09-20T13:58:54.664 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 23.49 time: 1379678334389
+2013-09-20T13:58:54.679 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 2164 time: 1379678334482
+2013-09-20T13:58:54.693 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 119 time: 1379678334540
+2013-09-20T13:58:54.708 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678334632
+2013-09-20T13:58:54.721 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:54.920 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:55.240 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:55.260 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:55.311 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:55.384 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:55.485 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:55.553 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:55.651 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678335309
+2013-09-20T13:58:55.663 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 23.52 time: 1379678335378
+2013-09-20T13:58:55.673 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 2165 time: 1379678335474
+2013-09-20T13:58:55.693 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 119 time: 1379678335543
+2013-09-20T13:58:55.740 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678335635
+2013-09-20T13:58:55.754 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:55.913 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:56.266 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:56.285 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:56.370 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:56.435 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:56.524 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:56.578 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:56.636 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678336364
+2013-09-20T13:58:56.649 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 23.63 time: 1379678336430
+2013-09-20T13:58:56.667 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 2178 time: 1379678336520
+2013-09-20T13:58:56.674 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 119 time: 1379678336577
+2013-09-20T13:58:56.687 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678336631
+2013-09-20T13:58:56.697 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:56.918 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:57.205 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:57.221 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:57.291 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:57.371 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:57.462 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:57.518 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:57.573 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678337288
+2013-09-20T13:58:57.581 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 22.91 time: 1379678337368
+2013-09-20T13:58:57.595 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 2090 time: 1379678337459
+2013-09-20T13:58:57.613 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 118 time: 1379678337517
+2013-09-20T13:58:57.623 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678337570
+2013-09-20T13:58:57.632 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:57.921 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:58.140 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:58.155 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:58.241 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:58.297 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:58.353 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:58.413 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:58.515 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678338238
+2013-09-20T13:58:58.533 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 20.83 time: 1379678338295
+2013-09-20T13:58:58.550 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 1957 time: 1379678338350
+2013-09-20T13:58:58.565 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 117 time: 1379678338408
+2013-09-20T13:58:58.582 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678338500
+2013-09-20T13:58:58.596 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:58.927 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:58:59.117 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:58:59.138 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:58:59.227 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:58:59.294 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:58:59.384 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:58:59.443 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:58:59.528 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678339223
+2013-09-20T13:58:59.536 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 19.13 time: 1379678339287
+2013-09-20T13:58:59.553 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 1900 time: 1379678339380
+2013-09-20T13:58:59.565 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 114 time: 1379678339438
+2013-09-20T13:58:59.585 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678339516
+2013-09-20T13:58:59.593 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:58:59.933 [INFO]: [org.envirocar.app.application.CommandListener:195] inserting measurement to Track: Track 20.09.2013 13:57:42
+2013-09-20T13:58:59.942 [INFO]: [org.envirocar.app.storage.DbAdapterImpl:117] Returning DbAdapterImpl; Hash: 1107644104
+2013-09-20T13:59:00.040 [INFO]: [org.envirocar.app.application.CommandListener:198] Add new measurement to track: Measurement [latitude=51.93464721461945, longitude=7.652490649246483, time=1379678333999, Calculated MAF=38.50795110288926, MAF=19.1299991607666, Intake Pressure=114.0, CO2=15.127668434492158, Intake Temperature=0.0, Rpm=1900.0, Consumption=5.708554126223456, Speed=0.0, 
+2013-09-20T13:59:00.046 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:59:00.106 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:59:00.112 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:59:00.164 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:59:00.216 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:59:00.262 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:59:00.312 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:59:00.360 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678340161
+2013-09-20T13:59:00.369 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 19.44 time: 1379678340215
+2013-09-20T13:59:00.384 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 1875 time: 1379678340261
+2013-09-20T13:59:00.398 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 113 time: 1379678340310
+2013-09-20T13:59:00.412 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678340355
+2013-09-20T13:59:00.424 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:59:00.932 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:59:00.938 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:59:00.954 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:59:01.040 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:59:01.096 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:59:01.181 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:59:01.241 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:59:01.298 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678341038
+2013-09-20T13:59:01.327 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 19.86 time: 1379678341093
+2013-09-20T13:59:01.341 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 1879 time: 1379678341176
+2013-09-20T13:59:01.356 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 113 time: 1379678341238
+2013-09-20T13:59:01.369 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678341294
+2013-09-20T13:59:01.383 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:59:01.899 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:59:01.910 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:59:01.931 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:59:01.989 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:59:02.043 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:59:02.136 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:59:02.201 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:59:02.300 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678341988
+2013-09-20T13:59:02.319 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 17.13 time: 1379678342038
+2013-09-20T13:59:02.339 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 951 time: 1379678342131
+2013-09-20T13:59:02.354 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 108 time: 1379678342197
+2013-09-20T13:59:02.371 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678342291
+2013-09-20T13:59:02.385 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:59:02.899 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:59:02.909 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:59:02.926 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:59:02.959 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:59:03.013 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:59:03.068 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:59:03.133 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:59:03.227 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678342958
+2013-09-20T13:59:03.250 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 10.58 time: 1379678343011
+2013-09-20T13:59:03.269 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 876 time: 1379678343061
+2013-09-20T13:59:03.287 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 104 time: 1379678343121
+2013-09-20T13:59:03.305 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678343215
+2013-09-20T13:59:03.321 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:59:03.833 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:59:03.857 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:59:03.916 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:59:03.959 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:59:04.023 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:59:04.080 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:59:04.134 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:59:04.230 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678343934
+2013-09-20T13:59:04.251 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 9.11 time: 1379678344021
+2013-09-20T13:59:04.264 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 860 time: 1379678344075
+2013-09-20T13:59:04.279 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 103 time: 1379678344129
+2013-09-20T13:59:04.293 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678344221
+2013-09-20T13:59:04.306 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:59:04.821 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:59:04.844 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:59:04.925 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:59:04.935 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:59:04.980 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:59:05.049 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:59:05.103 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:59:05.207 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678344921
+2013-09-20T13:59:05.233 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 9.05 time: 1379678344976
+2013-09-20T13:59:05.250 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 868 time: 1379678345047
+2013-09-20T13:59:05.258 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 102 time: 1379678345100
+2013-09-20T13:59:05.273 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678345199
+2013-09-20T13:59:05.287 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:59:05.801 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:59:05.823 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:59:05.880 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:59:05.915 [INFO]: [org.envirocar.app.application.CommandListener:195] inserting measurement to Track: Track 20.09.2013 13:57:42
+2013-09-20T13:59:05.921 [INFO]: [org.envirocar.app.storage.DbAdapterImpl:117] Returning DbAdapterImpl; Hash: 1107644104
+2013-09-20T13:59:05.941 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:59:05.983 [INFO]: [org.envirocar.app.application.CommandListener:198] Add new measurement to track: Measurement [latitude=51.93464721461945, longitude=7.652490649246483, time=1379678340044, Calculated MAF=15.74025835108681, MAF=9.050000190734863, Intake Pressure=102.0, CO2=7.156581715816528, Intake Temperature=0.0, Rpm=868.0, Consumption=2.7005968738930295, Speed=0.0, 
+2013-09-20T13:59:05.995 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:59:06.004 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:59:06.046 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:59:06.095 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678345875
+2013-09-20T13:59:06.106 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 8.94 time: 1379678345940
+2013-09-20T13:59:06.117 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 871 time: 1379678345991
+2013-09-20T13:59:06.124 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 102 time: 1379678346045
+2013-09-20T13:59:06.130 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678346092
+2013-09-20T13:59:06.135 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:59:06.643 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:59:06.657 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:59:06.708 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:59:06.769 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:59:06.916 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:59:06.925 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:59:06.986 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:59:07.080 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678346706
+2013-09-20T13:59:07.092 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 8.99 time: 1379678346765
+2013-09-20T13:59:07.104 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 867 time: 1379678346921
+2013-09-20T13:59:07.112 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 101 time: 1379678346983
+2013-09-20T13:59:07.121 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678347076
+2013-09-20T13:59:07.128 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:59:07.634 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:59:07.660 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:59:07.753 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:59:07.815 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:59:07.892 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:59:07.923 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:59:07.958 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:59:08.009 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678347740
+2013-09-20T13:59:08.017 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 9.19 time: 1379678347808
+2013-09-20T13:59:08.027 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 867 time: 1379678347888
+2013-09-20T13:59:08.034 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 101 time: 1379678347956
+2013-09-20T13:59:08.041 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678348008
+2013-09-20T13:59:08.046 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:59:08.554 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:59:08.569 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:59:08.653 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:59:08.708 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:59:08.758 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:59:08.817 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:59:08.907 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678348649
+2013-09-20T13:59:08.924 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 9.24 time: 1379678348706
+2013-09-20T13:59:08.942 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 857 time: 1379678348755
+2013-09-20T13:59:08.958 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 101 time: 1379678348811
+2013-09-20T13:59:08.972 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678348904
+2013-09-20T13:59:08.988 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:59:09.016 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:59:09.505 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:59:09.524 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:59:09.606 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:59:09.658 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:59:09.747 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:59:09.799 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:59:09.851 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678349600
+2013-09-20T13:59:09.865 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 9.27 time: 1379678349656
+2013-09-20T13:59:09.871 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 851 time: 1379678349745
+2013-09-20T13:59:09.878 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 101 time: 1379678349798
+2013-09-20T13:59:09.887 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678349848
+2013-09-20T13:59:09.897 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:59:09.966 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:59:10.403 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:59:10.410 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:59:10.489 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:59:10.543 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:59:10.638 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:59:10.687 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:59:10.698 [INFO]: [org.envirocar.app.activity.StartStopButtonUtil:101] processButtonClick called with state: SERVICE_STARTED / trackMode: 0 discovery: false
+2013-09-20T13:59:10.736 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678350487
+2013-09-20T13:59:10.750 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 9.11 time: 1379678350539
+2013-09-20T13:59:10.768 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 867 time: 1379678350634
+2013-09-20T13:59:10.788 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 101 time: 1379678350685
+2013-09-20T13:59:10.802 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678350732
+2013-09-20T13:59:10.816 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:59:11.033 [INFO]: [org.envirocar.app.application.CommandListener:195] inserting measurement to Track: Track 20.09.2013 13:57:42
+2013-09-20T13:59:11.039 [INFO]: [org.envirocar.app.storage.DbAdapterImpl:117] Returning DbAdapterImpl; Hash: 1107644104
+2013-09-20T13:59:11.097 [INFO]: [org.envirocar.app.application.CommandListener:198] Add new measurement to track: Measurement [latitude=51.93464721461945, longitude=7.652490649246483, time=1379678345995, Calculated MAF=15.567985938258094, MAF=9.109999656677246, Intake Pressure=101.0, CO2=7.2040282430952365, Intake Temperature=0.0, Rpm=867.0, Consumption=2.718501223809523, Speed=0.0, 
+2013-09-20T13:59:11.102 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:59:11.329 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:59:11.347 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:59:11.419 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:59:11.481 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:59:11.576 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:59:11.643 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:59:11.696 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678351418
+2013-09-20T13:59:11.719 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 9.19 time: 1379678351477
+2013-09-20T13:59:11.736 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 872 time: 1379678351571
+2013-09-20T13:59:11.750 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 101 time: 1379678351637
+2013-09-20T13:59:11.764 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678351692
+2013-09-20T13:59:11.777 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:59:11.913 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:59:12.290 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:59:12.311 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:59:12.368 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:59:12.434 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:59:12.529 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Intake Manifold Pressure / 01 0B
+2013-09-20T13:59:12.590 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Air Intake Temperature / 01 0F
+2013-09-20T13:59:12.711 [INFO]: [org.envirocar.app.application.CommandListener:100] Processed Speed Response: 0 time: 1379678352364
+2013-09-20T13:59:12.727 [INFO]: [org.envirocar.app.application.CommandListener:160] Processed MAF Response: 9.13 time: 1379678352430
+2013-09-20T13:59:12.742 [INFO]: [org.envirocar.app.application.CommandListener:117] Processed RPM Response: 868 time: 1379678352524
+2013-09-20T13:59:12.757 [INFO]: [org.envirocar.app.application.CommandListener:134] Processed IAP Response: 101 time: 1379678352586
+2013-09-20T13:59:12.770 [INFO]: [org.envirocar.app.application.CommandListener:151] Processed IAT Response: 0 time: 1379678352700
+2013-09-20T13:59:12.783 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:101] Scheduling the Executiion of Command Commands!
+2013-09-20T13:59:12.913 [FINEST]: [org.envirocar.app.application.LocationUpdateListener:45] Get new position of gps : lat 51.93464721461945 long: 7.652490649246483
+2013-09-20T13:59:13.296 [FINEST]: [org.envirocar.app.protocol.OBDCommandLooper:85] Executing Command Commands!
+2013-09-20T13:59:13.314 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Vehicle Speed / 01 0D
+2013-09-20T13:59:13.393 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Mass Air Flow / 01 10
+2013-09-20T13:59:13.439 [INFO]: [org.envirocar.app.application.ECApplication:267] ECApplication stopConnection
+2013-09-20T13:59:13.444 [INFO]: [org.envirocar.app.application.service.BackgroundServiceImpl:298] stopping service!
+2013-09-20T13:59:13.449 [INFO]: [org.envirocar.app.application.service.BackgroundServiceImpl:152] stopBackgroundService called
+2013-09-20T13:59:13.457 [FINEST]: [org.envirocar.app.protocol.AbstractSequentialConnector:110] Sending command Engine RPM / 01 0C
+2013-09-20T13:59:13.465 [INFO]: [org.envirocar.app.bluetooth.BluetoothConnection:235] Shutting down bluetooth socket.
+2013-09-20T13:59:13.473 [INFO]: [org.envirocar.app.storage.DbAdapterImpl:117] Returning DbAdapterImpl; Hash: 1107644104
+2013-09-20T13:59:13.484 [INFO]: [org.envirocar.app.protocol.OBDCommandLooper:238] stopping the command execution!
+2013-09-20T13:59:13.503 [SEVERE]: [org.envirocar.app.application.service.BackgroundServiceImpl:250] onConnectionException:
+bt socket closed, read return: -1:
+	android.bluetooth.BluetoothSocket.read(BluetoothSocket.java:428)
+	android.bluetooth.BluetoothInputStream.read(BluetoothInputStream.java:60)
+	org.envirocar.app.protocol.AbstractSequentialConnector.readResponseLine(AbstractSequentialConnector.java:219)
+	org.envirocar.app.protocol.AbstractSequentialConnector.readResult(AbstractSequentialConnector.java:195)
+	org.envirocar.app.protocol.AbstractSequentialConnector.runCommand(AbstractSequentialConnector.java:118)
+	org.envirocar.app.protocol.AbstractSequentialConnector.executeCommand(AbstractSequentialConnector.java:309)
+	org.envirocar.app.protocol.AbstractSequentialConnector.executeRequestCommands(AbstractSequentialConnector.java:271)
+	org.envirocar.app.protocol.OBDCommandLooper.executeCommandRequests(OBDCommandLooper.java:257)
+	org.envirocar.app.protocol.OBDCommandLooper.access$1(OBDCommandLooper.java:253)
+	org.envirocar.app.protocol.OBDCommandLooper$1.run(OBDCommandLooper.java:88)
+	android.os.Handler.handleCallback(Handler.java:730)
+	android.os.Handler.dispatchMessage(Handler.java:92)
+	android.os.Looper.loop(Looper.java:137)
+	org.envirocar.app.protocol.OBDCommandLooper.run(OBDCommandLooper.java:324)
+2013-09-20T13:59:13.520 [INFO]: [org.envirocar.app.application.service.BackgroundServiceImpl:212] Bluetooth device disconnected.
+2013-09-20T13:59:13.542 [INFO]: [org.envirocar.app.application.service.BackgroundServiceImpl:152] stopBackgroundService called
+2013-09-20T13:59:13.565 [INFO]: [org.envirocar.app.protocol.OBDCommandLooper:92] Exiting commandHandler.
+2013-09-20T13:59:13.584 [INFO]: [org.envirocar.app.bluetooth.BluetoothConnection:235] Shutting down bluetooth socket.
+2013-09-20T13:59:13.622 [INFO]: [org.envirocar.app.protocol.OBDCommandLooper:326] Command loop stopped.
+2013-09-20T13:59:13.627 [INFO]: [org.envirocar.app.protocol.OBDCommandLooper:238] stopping the command execution!
+2013-09-20T13:59:16.208 [INFO]: [org.envirocar.app.activity.StartStopButtonUtil:73] updateStartStopButtonOnServiceStateChange called with state: SERVICE_STOPPED / trackMode: 0 discovery: false
+2013-09-20T13:59:16.283 [INFO]: [org.envirocar.app.activity.StartStopButtonUtil:73] updateStartStopButtonOnServiceStateChange called with state: SERVICE_STOPPED / trackMode: 0 discovery: false
+2013-09-20T13:59:23.602 [INFO]: [org.envirocar.app.activity.DashboardFragment:240] onPause. hash=1108011080
+2013-09-20T13:59:23.611 [INFO]: [org.envirocar.app.activity.DashboardFragment:228] onStop. hash=1108011080
+2013-09-20T13:59:23.617 [INFO]: [org.envirocar.app.activity.DashboardFragment:246] onDestroyView. hash=1108011080
