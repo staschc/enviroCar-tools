@@ -38,7 +38,9 @@ public class TrackHarvester extends TrackPublisher {
 	private static final Logger logger = LoggerFactory
 			.getLogger(TrackHarvester.class);
 
-	private String baseTracks = "https://giv-car.uni-muenster.de/dev/rest/tracks/";
+	private static final String BASE_TRACKS = "https://envirocar.org/api/stable/tracks/";
+
+	private String baseTracks;
 
 	private ProgressListener progressListener;
 
@@ -47,9 +49,14 @@ public class TrackHarvester extends TrackPublisher {
 
 	private List<TrackFilter> filters = new ArrayList<TrackFilter>();
 	
-	public TrackHarvester(String consumerUrl, ProgressListener l) {
+	public TrackHarvester(String consumerUrl, ProgressListener l, String baseTrackUrl) {
 		super(consumerUrl);
 		this.progressListener = l;
+		this.baseTracks = baseTrackUrl;
+	}
+	
+	public TrackHarvester(String consumerUrl, ProgressListener l) {
+		this(consumerUrl, l, BASE_TRACKS);
 	}
 
 	public void harvestTracks() throws ClientProtocolException,
