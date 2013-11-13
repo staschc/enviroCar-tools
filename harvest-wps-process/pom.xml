@@ -9,7 +9,7 @@
 	</parent>
 
 	<artifactId>harvest-wps-process</artifactId>
-	
+
 	<packaging>jar</packaging>
 
 	<licenses>
@@ -22,6 +22,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<jackson.version>2.1.4</jackson.version>
+        <assemble.dir>${project.build.directory}/appassembler</assemble.dir>
 	</properties>
 
 	<build>
@@ -33,6 +34,23 @@
 					<target>1.7</target>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<executions>
+					<execution>
+						<configuration>
+							<descriptors>
+								<descriptor>src/main/config/assemble.xml</descriptor>
+							</descriptors>
+						</configuration>
+						<goals>
+							<goal>single</goal>
+						</goals>
+						<phase>install</phase>
+					</execution>
+				</executions>
+			</plugin>
 		</plugins>
 	</build>
 
@@ -41,6 +59,7 @@
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
@@ -59,10 +78,12 @@
 		<dependency>
 			<groupId>org.n52.wps</groupId>
 			<artifactId>52n-wps-io</artifactId>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.n52.wps</groupId>
 			<artifactId>52n-wps-algorithm</artifactId>
+			<scope>provided</scope>
 		</dependency>
 	</dependencies>
 
