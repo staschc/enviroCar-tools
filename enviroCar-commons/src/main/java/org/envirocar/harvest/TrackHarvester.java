@@ -33,7 +33,6 @@ import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpUriRequest;
-import org.apache.http.impl.client.DefaultHttpClient;
 import org.envirocar.json.JsonUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -66,7 +65,7 @@ public class TrackHarvester extends TrackPublisher {
 
 	public void harvestTracks() throws ClientProtocolException,
 			IOException {
-		HttpClient client = createAllTrustingClient();
+		HttpClient client = createClient();
 		
 		trackCount = resolveTrackCount(client);
 		
@@ -129,7 +128,7 @@ public class TrackHarvester extends TrackPublisher {
 
 	private void readAndPushTrack(String id)
 			throws ClientProtocolException, IOException {
-		DefaultHttpClient client = new DefaultHttpClient();
+		HttpClient client = createClient();
 		HttpResponse resp = client.execute(new HttpGet(baseTracks.concat(id)));
 		String content = readContent(resp.getEntity().getContent());
 

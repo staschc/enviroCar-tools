@@ -107,7 +107,7 @@
 		<dependencies>
 			<dependency>
 				<groupId>${project.groupId}</groupId>
-				<artifactId>commons</artifactId>
+				<artifactId>enviroCar-commons</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 

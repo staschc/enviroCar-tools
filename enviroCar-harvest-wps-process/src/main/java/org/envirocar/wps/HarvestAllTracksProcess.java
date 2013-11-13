@@ -82,6 +82,7 @@ public class HarvestAllTracksProcess extends AbstractAnnotatedAlgorithm implemen
     	try {
 			harvester.harvestTracks();
 		} catch (IOException e) {
+			LOGGER.warn(e.getMessage(), e);
 			throw new RuntimeException(e);
 		}
     	result = "finished";

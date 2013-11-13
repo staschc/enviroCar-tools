@@ -34,7 +34,7 @@ public class FeatureCollection extends AbstractObject implements
 		Iterable<Feature> {
 
 	private List<Feature> features = new ArrayList<Feature>();
-	private Map<String, Object> properties = new HashMap<>();
+	private Map<String, Object> properties = new HashMap<String, Object>();
 
 	public Map<String, Object> getProperties() {
 		return properties;

@@ -28,7 +28,7 @@ import java.util.Map;
 
 public class FeatureProperties {
 
-	private Map<String, Object> phenomenons = new HashMap<>();
+	private Map<String, Object> phenomenons = new HashMap<String, Object>();
 	private String sensor;
 	private String time;
 
