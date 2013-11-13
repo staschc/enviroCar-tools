@@ -8,7 +8,7 @@
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>harvest-wps-process</artifactId>
+	<artifactId>enviroCar-harvest-wps-process</artifactId>
 
 	<packaging>jar</packaging>
 

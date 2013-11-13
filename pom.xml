@@ -27,8 +27,8 @@
 	</properties>
 
 	<modules>
-		<module>commons</module>
-		<module>harvest-wps-process</module>
+		<module>enviroCar-commons</module>
+		<module>enviroCar-harvest-wps-process</module>
 	</modules>
 
 	<build>
