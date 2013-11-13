@@ -21,32 +21,10 @@
  * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA or
  * visit the Free Software Foundation web page, http://www.fsf.org.
  */
-package org.envirocar.geojson;
+package org.envirocar.harvest;
 
-public class Point extends AbstractObject {
+public interface TrackFilter {
 
-	private Coordinate coordinates;
+	boolean accepts(String trackJson);
 
-	public Point() {
-	}
-
-	public Point(Coordinate c) {
-		this.coordinates = c;
-	}
-
-	public Point(double longitude, double latitude) {
-		coordinates = new Coordinate(longitude, latitude);
-	}
-
-	public Point(double longitude, double latitude, double altitude) {
-		coordinates = new Coordinate(longitude, latitude, altitude);
-	}
-
-	public Coordinate getCoordinates() {
-		return coordinates;
-	}
-
-	public void setCoordinates(Coordinate c) {
-		this.coordinates = c;
-	}
 }

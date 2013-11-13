@@ -21,32 +21,19 @@
  * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA or
  * visit the Free Software Foundation web page, http://www.fsf.org.
  */
-package org.envirocar.geojson;
+package org.envirocar.json;
 
-public class Point extends AbstractObject {
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Map;
 
-	private Coordinate coordinates;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
-	public Point() {
+public class JsonUtil {
+
+	public static Map<?, ?> createJson(InputStream input) throws IOException {
+		ObjectMapper mapper = new ObjectMapper();
+		return mapper.readValue(input, Map.class);
 	}
-
-	public Point(Coordinate c) {
-		this.coordinates = c;
-	}
-
-	public Point(double longitude, double latitude) {
-		coordinates = new Coordinate(longitude, latitude);
-	}
-
-	public Point(double longitude, double latitude, double altitude) {
-		coordinates = new Coordinate(longitude, latitude, altitude);
-	}
-
-	public Coordinate getCoordinates() {
-		return coordinates;
-	}
-
-	public void setCoordinates(Coordinate c) {
-		this.coordinates = c;
-	}
+	
 }

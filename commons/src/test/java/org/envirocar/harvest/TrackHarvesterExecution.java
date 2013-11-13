@@ -21,32 +21,36 @@
  * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA or
  * visit the Free Software Foundation web page, http://www.fsf.org.
  */
-package org.envirocar.geojson;
+package org.envirocar.harvest;
 
-public class Point extends AbstractObject {
+import java.io.IOException;
 
-	private Coordinate coordinates;
+import org.apache.http.client.ClientProtocolException;
+import org.envirocar.harvest.ProgressListener;
+import org.envirocar.harvest.TrackHarvester;
 
-	public Point() {
+public class TrackHarvesterExecution {
+
+
+	public static void main(String[] args) throws ClientProtocolException,
+			IOException {
+		String consumerUrl = null;
+		if (args != null && args.length > 0) {
+			consumerUrl = args[0].trim();
+		}
+		else {
+			throw new IllegalArgumentException("consumerUrl needs to be provided");
+		}
+		
+		ProgressListener l = new ProgressListener() {
+
+			@Override
+			public void onProgressUpdate(float progressPercent) {
+				System.out.println(String.format("%f percent finished", progressPercent));
+			}
+			
+		};
+		new TrackHarvester(consumerUrl, l).harvestTracks();
 	}
-
-	public Point(Coordinate c) {
-		this.coordinates = c;
-	}
-
-	public Point(double longitude, double latitude) {
-		coordinates = new Coordinate(longitude, latitude);
-	}
-
-	public Point(double longitude, double latitude, double altitude) {
-		coordinates = new Coordinate(longitude, latitude, altitude);
-	}
-
-	public Coordinate getCoordinates() {
-		return coordinates;
-	}
-
-	public void setCoordinates(Coordinate c) {
-		this.coordinates = c;
-	}
+	
 }
