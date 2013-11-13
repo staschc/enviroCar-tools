@@ -11,7 +11,6 @@
 	<artifactId>harvest-wps-process</artifactId>
 	
 	<packaging>jar</packaging>
-	<inceptionYear>2013</inceptionYear>
 
 	<licenses>
 		<license>
@@ -33,30 +32,6 @@
 					<source>1.7</source>
 					<target>1.7</target>
 				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>com.mycila.maven-license-plugin</groupId>
-				<artifactId>maven-license-plugin</artifactId>
-				<configuration>
-					<header>src/main/config/license_header.txt</header>
-					<aggregate>true</aggregate>
-					<includes>
-						<include>**/*.java</include>
-					</includes>
-					<properties>
-						<year>${project.inceptionYear}</year>
-					</properties>
-					<strictCheck>true</strictCheck>
-				</configuration>
-				<executions>
-					<execution>
-						<id>check-headers</id>
-						<phase>verify</phase>
-						<goals>
-							<goal>check</goal>
-						</goals>
-					</execution>
-				</executions>
 			</plugin>
 		</plugins>
 	</build>
@@ -84,12 +59,10 @@
 		<dependency>
 			<groupId>org.n52.wps</groupId>
 			<artifactId>52n-wps-io</artifactId>
-			<version>3.2.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.n52.wps</groupId>
 			<artifactId>52n-wps-algorithm</artifactId>
-			<version>3.2.0</version>
 		</dependency>
 	</dependencies>
 
