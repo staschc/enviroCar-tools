@@ -47,7 +47,6 @@ import org.n52.wps.algorithm.annotation.Algorithm;
 import org.n52.wps.algorithm.annotation.ComplexDataOutput;
 import org.n52.wps.algorithm.annotation.Execute;
 import org.n52.wps.algorithm.annotation.LiteralDataInput;
-import org.n52.wps.algorithm.annotation.LiteralDataOutput;
 import org.n52.wps.algorithm.descriptor.AlgorithmDescriptor;
 import org.n52.wps.io.data.GenericFileData;
 import org.n52.wps.io.data.binding.complex.GenericFileDataBinding;
@@ -67,7 +66,6 @@ public class TrackToCSVProcess extends AbstractAnnotatedAlgorithm implements Pro
 
     private static Logger LOGGER = LoggerFactory.getLogger(TrackToCSVProcess.class);
 	private String trackUrl;
-	private String result = "ongoing";
 	private GenericFileData csv;
 
     public TrackToCSVProcess() {
@@ -79,11 +77,6 @@ public class TrackToCSVProcess extends AbstractAnnotatedAlgorithm implements Pro
     	return super.createAlgorithmDescriptor();
     }
     
-    @LiteralDataOutput(identifier = "result", binding = LiteralStringBinding.class)
-    public String getResult() {
-        return result;
-    }
-
     @LiteralDataInput(identifier = "enviroCar-track-url", binding = LiteralStringBinding.class, minOccurs=1)
     public void setTrackUrl(String u) {
         this.trackUrl = u;
@@ -109,6 +102,8 @@ public class TrackToCSVProcess extends AbstractAnnotatedAlgorithm implements Pro
     	else {
     		throw new IOException("Invalid response from server. Check the provided URL.");
     	}
+    	
+    	LOGGER.info("Finished CSV conversion");
     }
 
 	protected HttpClient createClient() throws IOException {
