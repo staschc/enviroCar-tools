@@ -72,9 +72,7 @@ public class TrackToCSV {
 		bw.append(createCSVHeader(properties, spaceTimeProperties));
 		bw.newLine();
 		
-		int count = 0;
 		for (Feature feature : fc.getFeatures()) {
-			if (count++ % 2 == 0) continue;
 			for (int i = 0; i < properties.size(); i++) {
 				String key = properties.get(i);
 				Map<?, ?> value = (Map<?, ?>) feature.getProperties().getPhenomenons().get(key);

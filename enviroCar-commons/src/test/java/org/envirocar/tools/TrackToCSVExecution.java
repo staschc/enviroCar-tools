@@ -38,11 +38,11 @@ public class TrackToCSVExecution {
 	@Test
 	public void execute() throws IOException, URISyntaxException {
 		TrackToCSV ttc = new TrackToCSV();
-		String fileName = "envirocar_track48.json";
+		String fileName = "track.json";
 		InputStream in = ttc.convert(getClass().getResourceAsStream(fileName));
 		
-		FileOutputStream fos = new FileOutputStream(
-				new File(getClass().getResource("/").toURI().getPath(), fileName+".csv"));
+		File f = new File(getClass().getResource("/").toURI().getPath(), fileName+".csv");
+		FileOutputStream fos = new FileOutputStream(f);
 		
 		ReadableByteChannel inChannel = Channels.newChannel(in);
 		ChannelTools.fastChannelCopy(inChannel, fos.getChannel());

@@ -31,6 +31,7 @@ public class FeatureProperties {
 	private Map<String, Object> phenomenons = new HashMap<String, Object>();
 	private String sensor;
 	private String time;
+	private String id;
 
 	public FeatureProperties() {
 	}
@@ -59,4 +60,12 @@ public class FeatureProperties {
 		this.time = time;
 	}
 
+	public String getId() {
+		return id;
+	}
+
+	public void setId(String id) {
+		this.id = id;
+	}
+	
 }
