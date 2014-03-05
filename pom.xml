@@ -29,6 +29,7 @@
 	<modules>
 		<module>enviroCar-commons</module>
 		<module>enviroCar-harvest-wps-process</module>
+		<module>enviroCar-track-to-csv-process</module>
 	</modules>
 
 	<build>
@@ -54,6 +55,7 @@
 			<plugin>
 				<groupId>com.mycila.maven-license-plugin</groupId>
 				<artifactId>maven-license-plugin</artifactId>
+				<inherited>false</inherited>
 				<configuration>
 					<header>src/main/config/license_header.txt</header>
 					<aggregate>true</aggregate>
