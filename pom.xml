@@ -29,6 +29,7 @@
 	<modules>
 		<module>enviroCar-commons</module>
 		<module>enviroCar-harvest-wps-process</module>
+		<module>enviroCar-data-transform-wps-process</module>
 		<module>enviroCar-track-to-csv-process</module>
 	</modules>
 
