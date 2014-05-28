@@ -23,6 +23,7 @@
  */
 package org.envirocar.wps;
 
+import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
 import java.util.ArrayList;
@@ -32,6 +33,7 @@ import java.util.Map;
 import java.util.UUID;
 
 import org.geotools.data.collection.ListFeatureCollection;
+import org.geotools.data.simple.SimpleFeatureCollection;
 import org.geotools.feature.FeatureCollection;
 import org.geotools.feature.NameImpl;
 import org.geotools.feature.simple.SimpleFeatureBuilder;
@@ -46,6 +48,8 @@ import org.n52.wps.server.AbstractAnnotatedAlgorithm;
 import org.opengis.feature.simple.SimpleFeature;
 import org.opengis.feature.simple.SimpleFeatureType;
 import org.opengis.feature.type.Name;
+import org.opengis.referencing.FactoryException;
+import org.opengis.referencing.NoSuchAuthorityCodeException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -57,7 +61,7 @@ import com.vividsolutions.jts.geom.Point;
 @Algorithm(version = "1.0.0")
 public class DataTransformProcess extends AbstractAnnotatedAlgorithm {
 
-    private static Logger LOGGER = LoggerFactory.getLogger(DataTransformProcess.class);
+    private static Logger LOGGER = LoggerFactory.getLogger(DataTransformProcessTest.class);
 
 	private SimpleFeatureTypeBuilder typeBuilder;
 
@@ -80,10 +84,15 @@ public class DataTransformProcess extends AbstractAnnotatedAlgorithm {
 	
     @Execute
 	public void transformEnviroCarData() throws Exception {
+				
+		result = createFeaturesFromJSON(new URL(url));
 		
-    	URL u = new URL(url);
+		LOGGER.debug("FeatureCollection size: " + result.size());
+	}	
 
-		InputStream in = u.openStream();
+    public SimpleFeatureCollection createFeaturesFromJSON(URL url) throws IOException{
+    	
+		InputStream in = url.openStream();
 
 		ObjectMapper objMapper = new ObjectMapper();
 
@@ -112,7 +121,13 @@ public class DataTransformProcess extends AbstractAnnotatedAlgorithm {
 		SimpleFeatureBuilder sfb = null;
 		
 		typeBuilder = new SimpleFeatureTypeBuilder();
-		typeBuilder.setCRS(CRS.decode("EPSG:4326"));
+		try {
+			typeBuilder.setCRS(CRS.decode("EPSG:4326"));
+		} catch (NoSuchAuthorityCodeException e) {
+			LOGGER.error("Could not decode EPSG:4326", e);
+		} catch (FactoryException e) {
+			LOGGER.error("Could not decode EPSG:4326", e);
+		}
 
 		typeBuilder.setNamespaceURI(namespace);
 		Name nameType = new NameImpl(namespace, "Feature-" + uuid);
@@ -207,11 +222,9 @@ public class DataTransformProcess extends AbstractAnnotatedAlgorithm {
 			}
 		}
 		
-		result = new ListFeatureCollection(sft, simpleFeatureList);
-		
-		LOGGER.debug("FeatureCollection size: " + result.size());
-	}	
-
+		return new ListFeatureCollection(sft, simpleFeatureList);    	
+    }
+    
 	private SimpleFeatureType buildFeatureType(LinkedHashMap<?, ?> properties) {
 
 		for (Object phenomenonKey : properties.keySet()) {
