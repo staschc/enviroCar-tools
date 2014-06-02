@@ -27,9 +27,11 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.UUID;
 
 import org.geotools.data.collection.ListFeatureCollection;
@@ -77,7 +79,7 @@ public class DataTransformProcess extends AbstractAnnotatedAlgorithm {
         return result;
     }
 
-    @LiteralDataInput(identifier = "url", abstrakt="Specify the URL to a EnviroCar track, e.g. https://giv-car.uni-muenster.de/dev/rest/tracks/51dcfb5ee4b0a504afb7c182")
+    @LiteralDataInput(identifier = "url", abstrakt="Specify the URL to an EnviroCar track, e.g. https://giv-car.uni-muenster.de/dev/rest/tracks/51dcfb5ee4b0a504afb7c182")
     public void setWidth(String url) {
         this.url = url;
     }
@@ -137,6 +139,8 @@ public class DataTransformProcess extends AbstractAnnotatedAlgorithm {
 		typeBuilder.add("id", String.class);
 		typeBuilder.add("time", String.class);
 
+		Set<String> distinctPhenomenonNames = gatherPropertiesForFeatureTypeBuilder(features);
+		
 		for (Object object : features) {				
 			
 			if (object instanceof LinkedHashMap<?, ?>) {
@@ -182,7 +186,7 @@ public class DataTransformProcess extends AbstractAnnotatedAlgorithm {
 						 * properties are id, time and phenomenons
 						 */
 						if(sft == null){
-							sft = buildFeatureType(phenomenonsMap);
+							sft = buildFeatureType(distinctPhenomenonNames);
 							sfb = new SimpleFeatureBuilder(sft);
 						}
 						sfb.set("id", id);
@@ -225,22 +229,55 @@ public class DataTransformProcess extends AbstractAnnotatedAlgorithm {
 		return new ListFeatureCollection(sft, simpleFeatureList);    	
     }
     
-	private SimpleFeatureType buildFeatureType(LinkedHashMap<?, ?> properties) {
+	private SimpleFeatureType buildFeatureType(Set<String> properties) {
 
-		for (Object phenomenonKey : properties.keySet()) {
-
-			Object phenomenonValue = properties.get(phenomenonKey);
-
-			if (phenomenonValue instanceof LinkedHashMap<?, ?>) {
-				LinkedHashMap<?, ?> phenomenonValueMap = (LinkedHashMap<?, ?>) phenomenonValue;
-
-				String unit = phenomenonValueMap.get("unit").toString();
-				typeBuilder.add(phenomenonKey.toString() + " (" + unit + ")",
+		for (String phenomenonKey : properties) {			
+				typeBuilder.add(phenomenonKey,
 						String.class);
-			}
-
 		}
 		return typeBuilder.buildFeatureType();
 	}
+
+	private Set<String> gatherPropertiesForFeatureTypeBuilder(ArrayList<?> features) {
+		Set<String> distinctPhenomenonNames = new HashSet<String>();
+
+		for (Object object : features) {
+
+			if (object instanceof LinkedHashMap<?, ?>) {
+				LinkedHashMap<?, ?> featureMap = (LinkedHashMap<?, ?>) object;
+
+				Object propertiesObject = featureMap.get("properties");
+
+				if (propertiesObject instanceof LinkedHashMap<?, ?>) {
+					LinkedHashMap<?, ?> propertiesMap = (LinkedHashMap<?, ?>) propertiesObject;
+
+					Object phenomenonsObject = propertiesMap.get("phenomenons");
+
+					if (phenomenonsObject instanceof LinkedHashMap<?, ?>) {
+						LinkedHashMap<?, ?> phenomenonsMap = (LinkedHashMap<?, ?>) phenomenonsObject;
+
+						for (Object phenomenonKey : phenomenonsMap.keySet()) {
+
+							Object phenomenonValue = phenomenonsMap
+									.get(phenomenonKey);
+
+							if (phenomenonValue instanceof LinkedHashMap<?, ?>) {
+								LinkedHashMap<?, ?> phenomenonValueMap = (LinkedHashMap<?, ?>) phenomenonValue;
+
+								String unit = phenomenonValueMap.get("unit")
+										.toString();
+
+								distinctPhenomenonNames.add(phenomenonKey
+										.toString() + " (" + unit + ")");
+							}
+
+						}
+					}
+
+				}
+			}
+		}
+		return distinctPhenomenonNames;
+	}	
 
 }
