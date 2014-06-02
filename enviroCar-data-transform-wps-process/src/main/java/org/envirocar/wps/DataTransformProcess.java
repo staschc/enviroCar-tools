@@ -34,6 +34,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.UUID;
 
+import org.envirocar.wps.util.EnviroCarFeatureParser;
 import org.geotools.data.collection.ListFeatureCollection;
 import org.geotools.data.simple.SimpleFeatureCollection;
 import org.geotools.feature.FeatureCollection;
@@ -63,7 +64,7 @@ import com.vividsolutions.jts.geom.Point;
 @Algorithm(version = "1.0.0")
 public class DataTransformProcess extends AbstractAnnotatedAlgorithm {
 
-    private static Logger LOGGER = LoggerFactory.getLogger(DataTransformProcessTest.class);
+    private static Logger LOGGER = LoggerFactory.getLogger(DataTransformProcess.class);
 
 	private SimpleFeatureTypeBuilder typeBuilder;
 
@@ -86,198 +87,9 @@ public class DataTransformProcess extends AbstractAnnotatedAlgorithm {
 	
     @Execute
 	public void transformEnviroCarData() throws Exception {
-				
-		result = createFeaturesFromJSON(new URL(url));
-		
+    	EnviroCarFeatureParser parser = new EnviroCarFeatureParser();
+		result = parser.createFeaturesFromJSON(new URL(url));
 		LOGGER.debug("FeatureCollection size: " + result.size());
-	}	
-
-    public SimpleFeatureCollection createFeaturesFromJSON(URL url) throws IOException{
-    	
-		InputStream in = url.openStream();
-
-		ObjectMapper objMapper = new ObjectMapper();
-
-		Map<?, ?> map = objMapper.readValue(in, Map.class);
-
-		ArrayList<?> features = null;
-
-		for (Object o : map.keySet()) {
-			Object entry = map.get(o);
-
-			if (o.equals("features")) {
-				features = (ArrayList<?>) entry;
-			}
-		}
-
-		GeometryFactory geomFactory = new GeometryFactory();
-
-		List<SimpleFeature> simpleFeatureList = new ArrayList<SimpleFeature>();
-		
-		String uuid = UUID.randomUUID().toString().substring(0, 5);
-
-		String namespace = "http://www.52north.org/" + uuid;
-
-		SimpleFeatureType sft = null;
-
-		SimpleFeatureBuilder sfb = null;
-		
-		typeBuilder = new SimpleFeatureTypeBuilder();
-		try {
-			typeBuilder.setCRS(CRS.decode("EPSG:4326"));
-		} catch (NoSuchAuthorityCodeException e) {
-			LOGGER.error("Could not decode EPSG:4326", e);
-		} catch (FactoryException e) {
-			LOGGER.error("Could not decode EPSG:4326", e);
-		}
-
-		typeBuilder.setNamespaceURI(namespace);
-		Name nameType = new NameImpl(namespace, "Feature-" + uuid);
-		typeBuilder.setName(nameType);
-
-		typeBuilder.add("geometry", Point.class);
-		typeBuilder.add("id", String.class);
-		typeBuilder.add("time", String.class);
-
-		Set<String> distinctPhenomenonNames = gatherPropertiesForFeatureTypeBuilder(features);
-		
-		for (Object object : features) {				
-			
-			if (object instanceof LinkedHashMap<?, ?>) {
-				LinkedHashMap<?, ?> featureMap = (LinkedHashMap<?, ?>) object;
-
-				Object geometryObject = featureMap.get("geometry");
-				
-				Point point = null;
-				
-				if(geometryObject instanceof LinkedHashMap<?, ?>){
-					LinkedHashMap<?, ?> geometryMap = (LinkedHashMap<?, ?>)geometryObject;
-					
-					Object coordinatesObject = geometryMap.get("coordinates");
-					
-					if(coordinatesObject instanceof ArrayList<?>){
-						ArrayList<?> coordinatesList = (ArrayList<?>)coordinatesObject;
-						
-						Object xObj = coordinatesList.get(0);
-						Object yObj = coordinatesList.get(1);
-						
-						point = geomFactory.createPoint(new Coordinate(Double.parseDouble(xObj.toString()), Double.parseDouble(yObj.toString())));
-						
-					}
-				}
-				
-				Object propertiesObject = featureMap.get("properties");
-
-				if (propertiesObject instanceof LinkedHashMap<?, ?>) {
-					LinkedHashMap<?, ?> propertiesMap = (LinkedHashMap<?, ?>) propertiesObject;	
-
-					/*
-					 * get id and time
-					 */
-					
-					String id = propertiesMap.get("id").toString();
-					String time = propertiesMap.get("time").toString();
-
-					Object phenomenonsObject = propertiesMap.get("phenomenons");
-
-					if (phenomenonsObject instanceof LinkedHashMap<?, ?>) {
-						LinkedHashMap<?, ?> phenomenonsMap = (LinkedHashMap<?, ?>) phenomenonsObject;
-						/*
-						 * properties are id, time and phenomenons
-						 */
-						if(sft == null){
-							sft = buildFeatureType(distinctPhenomenonNames);
-							sfb = new SimpleFeatureBuilder(sft);
-						}
-						sfb.set("id", id);
-						sfb.set("time", time);
-						sfb.set("geometry", point);
-						
-						for (Object phenomenonKey : phenomenonsMap.keySet()) {
-
-							Object phenomenonValue = phenomenonsMap
-									.get(phenomenonKey);
-
-							if (phenomenonValue instanceof LinkedHashMap<?, ?>) {
-								LinkedHashMap<?, ?> phenomenonValueMap = (LinkedHashMap<?, ?>) phenomenonValue;
-
-								String value = phenomenonValueMap.get("value")
-										.toString();
-								String unit = phenomenonValueMap.get("unit")
-										.toString();
-								
-								/*
-								 * create property name
-								 */
-								String propertyName = phenomenonKey.toString() + " (" + unit + ")";
-								if(sfb != null){
-									sfb.set(propertyName, value);
-								}
-								
-							}
-
-						}
-						if(sfb != null){							
-							simpleFeatureList.add(sfb.buildFeature(id));
-						}
-					}
-				}
-
-			}
-		}
-		
-		return new ListFeatureCollection(sft, simpleFeatureList);    	
-    }
-    
-	private SimpleFeatureType buildFeatureType(Set<String> properties) {
-
-		for (String phenomenonKey : properties) {			
-				typeBuilder.add(phenomenonKey,
-						String.class);
-		}
-		return typeBuilder.buildFeatureType();
-	}
-
-	private Set<String> gatherPropertiesForFeatureTypeBuilder(ArrayList<?> features) {
-		Set<String> distinctPhenomenonNames = new HashSet<String>();
-
-		for (Object object : features) {
-
-			if (object instanceof LinkedHashMap<?, ?>) {
-				LinkedHashMap<?, ?> featureMap = (LinkedHashMap<?, ?>) object;
-
-				Object propertiesObject = featureMap.get("properties");
-
-				if (propertiesObject instanceof LinkedHashMap<?, ?>) {
-					LinkedHashMap<?, ?> propertiesMap = (LinkedHashMap<?, ?>) propertiesObject;
-
-					Object phenomenonsObject = propertiesMap.get("phenomenons");
-
-					if (phenomenonsObject instanceof LinkedHashMap<?, ?>) {
-						LinkedHashMap<?, ?> phenomenonsMap = (LinkedHashMap<?, ?>) phenomenonsObject;
-
-						for (Object phenomenonKey : phenomenonsMap.keySet()) {
-
-							Object phenomenonValue = phenomenonsMap
-									.get(phenomenonKey);
-
-							if (phenomenonValue instanceof LinkedHashMap<?, ?>) {
-								LinkedHashMap<?, ?> phenomenonValueMap = (LinkedHashMap<?, ?>) phenomenonValue;
-
-								String unit = phenomenonValueMap.get("unit")
-										.toString();
-
-								distinctPhenomenonNames.add(phenomenonKey
-										.toString() + " (" + unit + ")");
-							}
-
-						}
-					}
-
-				}
-			}
-		}
-		return distinctPhenomenonNames;
 	}	
 
 }
